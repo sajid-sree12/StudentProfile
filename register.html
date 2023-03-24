@@ -13,24 +13,40 @@
     <center>
         <div class="welcome">
             <h1>Welcome to Student Profile</h1>
+            <font-awesome-icon :icon="['fas', 'hand-back-point-down']" />
+            <h3>Register</h3>
         </div>
-        <div class="card" style="width: 25rem;box-shadow: 0px 10px 10px rgba(161, 103, 250, 0.6);">
+        <div class="card" style="width:25rem;box-shadow: 0px 10px 10px rgba(161, 103, 250, 0.6);">
             <img src="https://career.webindia123.com/career/institutes/aspupload/Uploads/andhra-pradesh/22204/logo.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <form>
+
                     <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <label for="exampleInputEmail1" class="form-label">Roll Number</label>
+                        <input type="email" name="rollnumber" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
 
                     </div>
-                    <div class="mb-3">
-                        <label for="exampleInputPassword1" class="form-label">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    <div class="col mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Full Name</label>
+                        <input type="text" name="fname" class="form-control" id="exampleInputPassword1">
                     </div>
-                    <button type="submit" class="btn btn-primary">Login</button>
+
+
+                    <div class="col mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Create Password</label>
+                        <input type="password" name="pass1" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="col mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Confirm Password</label>
+                        <input type="password" name="pass2" class="form-control" id="exampleInputPassword1">
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Register</button>
+
                     <br>
+                    <p>Already have an account !</p><button class="btn btn-outline-dark"> Login</button>
+
                 </form>
-                <p>Don't have an account ! </p><a href="register.html"><button class="btn btn-outline-dark" > Register</button></a>
             </div>
         </div>
     </center>
