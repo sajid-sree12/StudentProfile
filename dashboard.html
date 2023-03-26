@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1>SVREC</h1>
+    <div class="row row-cols-1 row-cols-lg-2  g-0">
+        <div class="d-flex flex-column vnav" style="width: max-content">
+            <a class="btn btn-outline-dark vnav-btn" href="#">Basic Details</a>
+            <a class="btn btn-outline-dark vnav-btn" href="#">Photo</a>
+            <a class="btn btn-outline-dark vnav-btn" href="#">Education</a>
+            <a class="btn btn-outline-dark vnav-btn">Skills</a>
+            <a class="btn btn-outline-dark vnav-btn">Certifications</a>
+            <a class="btn btn-outline-dark vnav-btn">Projects & <br>Internships</a>
+            <a class="btn btn-outline-dark vnav-btn">Hobbies & <br>Languages</a>
+            <a class="btn btn-outline-dark vnav-btn">Achievements</a>
+        </div>
+
+        <!--Basic section start-->
+        <section style="display: none;">
+            <div class="vnav">
+                <div class="card">
+                    <div class="card-header">
+                        Basic Details
+                    </div>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label for="exampleInput" class="form-label text-muted">Your Full Name</label>
+                            <input type="text" class="form-control" id="exampleInput" placeholder="D Sajid" disabled>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInput" class="form-label text-muted">Your Email</label>
+                            <input type="text" class="form-control" id="exampleInput" placeholder="19am1a0307@svrec.ac.in" disabled>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInput" class="form-label text-muted">Gender</label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                  Male
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                 Female
+                                </label>
+                            </div>
+
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInput" class="form-label text-muted">Date of Birth</label>
+                            <div class="d-flex">
+                                <select class="form-select me-2" id="exampleInputMonth" aria-label="Month">
+                                    <option value="">Month</option>
+                                    <option value="01">January</option>
+                                    <option value="02">February</option>
+                                    <option value="03">March</option>
+                                    <option value="04">April</option>
+                                    <option value="05">May</option>
+                                    <option value="06">June</option>
+                                    <option value="07">July</option>
+                                    <option value="08">August</option>
+                                    <option value="09">September</option>
+                                    <option value="10">October</option>
+                                    <option value="11">November</option>
+                                    <option value="12">December</option>
+                                </select>
+                                <select class="form-select" id="exampleInputDate" aria-label="Date">
+                                    <option value="">Date</option>
+                                    <option value="01">1</option>
+                                    <option value="02">2</option>
+                                    <option value="03">3</option>
+                                    <option value="04">4</option>
+                                    <option value="05">5</option>
+                                    <option value="06">6</option>
+                                    <option value="07">7</option>
+                                    <option value="08">8</option>
+                                    <option value="09">9</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                    <option value="13">13</option>
+                                    <option value="14">14</option>
+                                    <option value="15">15</option>
+                                    <option value="16">16</option>
+                                    <option value="17">17</option>
+                                    <option value="18">18</option>
+                                    <option value="19">19</option>
+                                    <option value="20">20</option>
+                                    <option value="21">21</option>
+                                    <option value="22">22</option>
+                                    <option value="23">23</option>
+                                    <option value="24">24</option>
+                                    <option value="25">25</option>
+                                    <option value="26">26</option>
+                                    <option value="27">27</option>
+                                    <option value="28">28</option>
+                                    <option value="29">29</option>
+                                    <option value="30">30</option>
+                                    <option value="31">31</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInput" class="form-label text-muted">Blood Group</label>
+                            <input type="text" class="form-control" id="exampleInput" placeholder="User Name">
+                        </div>
+                        <p class="card-text">.</p>
+                        <a href="#" class="btn btn-primary">Update</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Basic section End-->
+
+        <!--Photo section start-->
+        <section style="display: none;" class="flex-grow-1">
+            <div class="card">
+                <div class="card-header">Your Photo</div>
+                <div class="card-body">
+                    <h5 class="card-title">Name</h5>
+                    <img src="https://career.webindia123.com/career/institutes/aspupload/Uploads/andhra-pradesh/22204/logo.jpg" alt="" class="card-image">
+                    <form action="">
+                        <div class="input-group">
+                            <input type="file" class="form-control" id="inputGroupFile04" name="dp" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+
+                        </div><br>
+                        <button class="btn btn-outline-success" type="submit" id="inputGroupFileAddon04" name="dppost">Upload</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!--Photo section End-->
+
+
+        <!--Education section start-->
+        <section style="display: block;" class="flex-lg-grow-1">
+            <div class="card card-body vnav">
+                <div class="card-header">
+                    Education
+                </div><br>
+                <form method="POST">
+                    <div class="card card-body">
+                        <div class="card-header"><b>B.Tech</b></div><br>
+                        <div class="row row-cols-1 row-cols-lg-4  g-2">
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Course</label>
+                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Branch">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Institution</label>
+                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Institution">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Year of Passout</label>
+                                <input type="year" class="form-control" id="exampleFormControlInput1" placeholder="Pass Out Year">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Score %</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="example 90%">
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="card card-body">
+                        <div class="card-header"><b>Intermediate</b></div><br>
+                        <div class="row row-cols-1 row-cols-lg-4  g-2">
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Course</label>
+                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Course">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Institution</label>
+                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Institution">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Year of Passout</label>
+                                <input type="year" class="form-control" id="exampleFormControlInput1" placeholder="Pass Out Year">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Score %</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="example 90%">
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="card card-body">
+                        <div class="card-header"><b>Secondary School Certificate</b></div><br>
+                        <div class="row row-cols-1 row-cols-lg-4  g-2">
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Institution</label>
+                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Institution">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Year of Passout</label>
+                                <input type="year" class="form-control" id="exampleFormControlInput1" placeholder="Pass Out Year">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Score %</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="example 90%">
+                            </div>
+                        </div>
+                    </div><br>
+                    <a class="btn btn-success" type="submit" href="">Update</a>
+                </form>
+            </div>
+        </section>
+        <!--Education section End-->
+
+        <!--Skill section start-->
+        <section class="flex-grow-1" style="display: none;">
+            <div class="container align-items-center">
+                <div class="row row-cols-1 row-cols-lg-2">
+                    <div class="card text-center mb-3" style="width: 35rem;">
+                        <div class="card-header"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    <div class="card text-center mb-3" style="width: 35rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+
+</html>
