@@ -12,12 +12,34 @@
 }
 
 .vnav {
-    margin: 10px;
-    padding: 10px;
-    background-color: rgba(62, 73, 226, 0.529);
-    border-radius: 5px;
+    height: max-content;
 }
 
 .vnav-btn {
-    margin: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background: linear-gradient(45deg, violet, rgb(251, 205, 213));
+    transition: 100ms;
+}
+
+.vnav-btn::after {
+    color: blue;
+    background: linear-gradient(45deg, violet, rgb(251, 205, 213));
+    transition: width 0.3s;
+}
+
+.vnav-btn:hover {
+    color: rgb(43, 1, 255);
+    font-weight: bolder;
+    background: linear-gradient(45deg, rgb(251, 205, 213), violet);
+}
+
+.adminlogo {
+    width: 50px;
+    font-weight: bolder;
+    border-radius: 50%;
+    background: linear-gradient(orangered, yellow);
 }
